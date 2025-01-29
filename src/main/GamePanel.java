@@ -90,7 +90,7 @@ public class GamePanel extends JPanel{
 		int g = random.nextInt(255);
 		int b = random.nextInt(255);
 		
-		return new Color(r, b, g);
+		return new Color(r, g, b);
 	}
 }
 	
